@@ -1,0 +1,17 @@
+.root {
+    display: flex;
+    justify-content: center;
+    &__body {
+    }
+    &__car {
+        &__body {
+            &__title {
+                font-size: 18px;
+            }
+            &__price {
+                font-size: 16px;
+                text-decoration: underline;
+            }
+        }
+    }
+}

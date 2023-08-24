@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+@tailwind base;
+@tailwind components;
+
+body {
+    background: $bg-color;
+    color: $font-color;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    max-width: $w-container;
+    margin: 0 auto;
+}
